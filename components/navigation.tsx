@@ -6,11 +6,12 @@ import { cn } from "@/lib/utils"
 
 const navItems = [
   { href: "/", label: "Home" },
-  { href: "/podcast", label: "Podcast" },
+  { href: "/listen", label: "Listen" },
+  { href: "/race", label: "Race" },
+  { href: "/train", label: "Train" },
+  { href: "/community", label: "Community" },
+  { href: "/about", label: "About" },
   { href: "/shop", label: "Shop" },
-  { href: "/blog", label: "Blog" },
-  { href: "/events", label: "Events" },
-  { href: "/contact", label: "Contact" },
 ]
 
 export function Navigation() {
