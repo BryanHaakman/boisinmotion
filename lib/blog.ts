@@ -50,7 +50,7 @@ export function getBlogPost(slug: string): BlogPost | null {
       excerpt: data.excerpt,
       content,
     }
-  } catch (error) {
+  } catch {
     return null
   }
 }

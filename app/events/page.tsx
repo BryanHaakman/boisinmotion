@@ -53,7 +53,6 @@ const events = [
 
 export default function EventsPage() {
   const upNextEvent = events.find((event) => event.status === "upcoming")
-  const upcomingEvents = events.filter((event) => event.status === "upcoming")
 
   return (
     <main className="min-h-screen">
@@ -76,7 +75,7 @@ export default function EventsPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Don't miss our next event! Join us for an amazing experience.
+                  Don&apos;t miss our next event! Join us for an amazing experience.
                 </p>
               </CardContent>
             </Card>

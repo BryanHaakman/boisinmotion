@@ -14,7 +14,7 @@ export default function ShopPage() {
             <CardHeader>
               <CardTitle className="text-3xl">Coming Soon</CardTitle>
               <CardDescription className="text-lg">
-                We're working hard to bring you amazing products
+                We&apos;re working hard to bring you amazing products
               </CardDescription>
             </CardHeader>
             <CardContent className="py-12">
