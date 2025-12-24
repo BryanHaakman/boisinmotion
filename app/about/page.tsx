@@ -154,7 +154,7 @@ export default function AboutPage() {
               {
                 icon: "📈",
                 title: "Growth For All",
-                description: "Beginner or sub-3 marathoner—your progress matters equally. All paces welcome.",
+                description: "Beginner or elite marathoner—your progress matters equally. All paces welcome.",
               },
               {
                 icon: "🇨🇦",

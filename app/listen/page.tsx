@@ -28,7 +28,7 @@ export default function ListenPage() {
             <div>
               <h1 className="mb-4">Listen</h1>
               <p className="text-lg text-muted-foreground mb-6">
-                Dive into conversations about endurance, training, and the Canadian running community. Whether you're grinding towards your first 5K or chasing a sub-3 marathon, we've got the stories and insights you need.
+                Dive into conversations about endurance, training, and the Canadian running community. Whether you're grinding towards your first 5K or chasing a marathon PR, we've got the stories and insights you need.
               </p>
               <div className="flex gap-4">
                 <Button variant="primary">
