@@ -47,6 +47,53 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Mission Section */}
+      <section className="py-12 md:py-16 bg-card border-t border-border">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl">
+            <h2 className="mb-6">Our Mission</h2>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Create a strong community for endurance sports enthusiasts through engaging content, inspiring stories, and expert insights.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* North Star Goals */}
+      <section className="py-12 md:py-16 border-t border-border">
+        <div className="container mx-auto px-4">
+          <h2 className="mb-12">Our North Star</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                icon: "🏃",
+                title: "100K First-Timers",
+                description: "Support 100,000 people to complete their first half or full marathon, triathlon, or century ride.",
+              },
+              {
+                icon: "🎉",
+                title: "IRL Events",
+                description: "Host in-person events with 100 people, bringing the community together offline.",
+              },
+              {
+                icon: "✈️",
+                title: "International Camp",
+                description: "Host a cost neutral international training camp with the crew.",
+              },
+            ].map((goal) => (
+              <div
+                key={goal.title}
+                className="border border-border rounded-lg p-6 hover:border-primary transition-colors"
+              >
+                <div className="text-4xl mb-3">{goal.icon}</div>
+                <h3 className="text-lg font-bold mb-2">{goal.title}</h3>
+                <p className="text-muted-foreground text-sm">{goal.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* The Hosts */}
       <section className="py-12 md:py-16 border-t border-border">
         <div className="container mx-auto px-4">
@@ -134,51 +181,90 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Core Values */}
+      {/* Our Philosophy */}
       <section className="py-12 md:py-16 border-t border-border">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12">Our Values</h2>
+          <h2 className="mb-8">Our Philosophy</h2>
+          <p className="text-lg text-muted-foreground mb-12 max-w-3xl">
+            At Bois in Motion, our mission is to create valuable, engaging, and relevant content for our community of endurance sports enthusiasts. Here's how we achieve this:
+          </p>
 
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
+                icon: "👥",
+                title: "Audience-Centric Approach",
+                description: "We prioritize understanding our audience's needs, interests, and challenges to deliver valuable and engaging content.",
+              },
+              {
+                icon: "💎",
+                title: "Quality Over Quantity",
+                description: "We focus on producing well-researched, insightful, and entertaining content, aiming for impact over follower growth or subscriber counts.",
+              },
+              {
                 icon: "🎯",
-                title: "Relentless Honesty",
-                description: "No fluff. We share wins and losses. That's where trust is built.",
+                title: "Authenticity and Integrity",
+                description: "We're stand up Bois.",
               },
               {
                 icon: "🤝",
-                title: "Community Over Competition",
-                description: "Competition makes us faster. Community makes us stronger. We do both.",
+                title: "Engagement and Community Building",
+                description: "We foster a strong, interactive community by actively engaging with our followers and encouraging discussions and feedback.",
               },
               {
                 icon: "📈",
-                title: "Growth For All",
-                description: "Beginner or sub-3 marathoner—your progress matters equally. All paces welcome.",
+                title: "Continuous Improvement",
+                description: "We commit to learning and evolving based on audience feedback and industry trends, regularly updating our content strategies and process as needed.",
               },
+            ].map((principle) => (
+              <div
+                key={principle.title}
+                className="border border-border rounded-lg p-6 hover:border-primary transition-colors"
+              >
+                <div className="text-4xl mb-3">{principle.icon}</div>
+                <h3 className="text-lg font-bold mb-2">{principle.title}</h3>
+                <p className="text-muted-foreground text-sm">{principle.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Core Values / Themes */}
+      <section className="py-12 md:py-16 bg-card border-t border-border">
+        <div className="container mx-auto px-4">
+          <h2 className="mb-12">Our Core Values</h2>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {[
               {
-                icon: "🇨🇦",
-                title: "Canadian Pride",
-                description: "We're building the endurance community right here in Canada. From coast to coast.",
+                icon: "😄",
+                title: "Fun / Casual / Comedic",
+                description: "We maintain a lighthearted and approachable tone, making our content enjoyable and relatable.",
               },
               {
                 icon: "💪",
-                title: "The Grind is Sacred",
-                description: "We respect the work. Early mornings, late nights, and every rep in between.",
+                title: "Supportive / Motivating",
+                description: "We aim to inspire and motivate our audience, creating a supportive environment for all.",
               },
               {
-                icon: "🎓",
-                title: "Learn & Share",
-                description: "What we know, we teach. What we're learning, we share. Forever students.",
+                icon: "📚",
+                title: "Informative / Insight Generating",
+                description: "We provide valuable information and insights, helping our audience improve and succeed.",
               },
-            ].map((value) => (
+              {
+                icon: "⚡",
+                title: "Current",
+                description: "We stay up-to-date with the latest trends and developments.",
+              },
+            ].map((theme) => (
               <div
-                key={value.title}
+                key={theme.title}
                 className="border border-border rounded-lg p-6 hover:border-primary transition-colors"
               >
-                <div className="text-4xl mb-3">{value.icon}</div>
-                <h3 className="text-lg font-bold mb-2">{value.title}</h3>
-                <p className="text-muted-foreground text-sm">{value.description}</p>
+                <div className="text-4xl mb-3">{theme.icon}</div>
+                <h3 className="text-lg font-bold mb-2">{theme.title}</h3>
+                <p className="text-muted-foreground text-sm">{theme.description}</p>
               </div>
             ))}
           </div>
