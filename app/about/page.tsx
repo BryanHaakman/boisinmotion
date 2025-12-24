@@ -9,27 +9,27 @@ export default function AboutPage() {
   const hosts = [
     {
       name: "Bryan",
-      bio: "Marathon enthusiast and the voice of experience. Bryan brings strategic training wisdom and race day insights from years of competitive running.",
-      pb: "Sub-3 Marathoner",
-      favoriteRace: "Toronto Waterfront Marathon",
+      bio: "Training junkie who lives for the grind. Bryan balances cycling and running, bringing a multisport perspective with insights on building endurance across disciplines.",
+      pb: "Multiple Sport PRs",
+      favoriteRace: "Gran Fondo & Marathon Events",
       quote: "The only bad run is the one you didn't do.",
-      specialty: "Marathon Training",
+      specialty: "Cycling & Running Training",
     },
     {
       name: "Andrew",
-      bio: "The triathlon guy. Andrew bridges running, cycling, and swimming—sharing how to balance multiple sports without burning out.",
-      pb: "Olympic Distance Triathlon",
-      favoriteRace: "Muskoka 70.3",
+      bio: "The one-trick pony runner who's all about the marathon. Andrew is a sub-2:45 marathoner chasing the world majors with laser focus on the 26.2.",
+      pb: "Sub-2:45 Marathoner",
+      favoriteRace: "World Marathon Majors",
       quote: "Consistency beats intensity every single time.",
-      specialty: "Multi-Sport Training",
+      specialty: "Marathon Racing",
     },
     {
       name: "Tyler",
-      bio: "Speed work specialist and community connector. Tyler lives for the local running scene and organizes grassroots events across Canada.",
-      pb: "Sub-17 5K",
-      favoriteRace: "Taiga Festival 5K Series",
+      bio: "The triathlete and ironman enthusiast. Tyler bridges running, cycling, and swimming—sharing how to balance multiple sports and tackle long-course racing.",
+      pb: "Ironman Finisher",
+      favoriteRace: "Ironman 70.3 & Full Distance",
       quote: "Fast running is built on the fundamentals.",
-      specialty: "Speed & Intervals",
+      specialty: "Triathlon & Ironman",
     },
   ]
 
@@ -213,8 +213,8 @@ export default function AboutPage() {
               },
               {
                 icon: "📈",
-                title: "Continuous Improvement",
-                description: "We commit to learning and evolving based on audience feedback and industry trends, regularly updating our content strategies and processes as needed.",
+                title: "Growth For All",
+                description: "Beginner or elite marathoner—your progress matters equally. All paces welcome.",
               },
             ].map((principle) => (
               <div
