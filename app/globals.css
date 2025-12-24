@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: 250 100% 98%;
+  --color-foreground: 270 20% 20%;
+  --color-card: 250 100% 99%;
+  --color-card-foreground: 270 20% 20%;
+  --color-popover: 0 0% 100%;
+  --color-popover-foreground: 270 20% 20%;
+  --color-primary: 270 70% 75%;
+  --color-primary-foreground: 270 20% 20%;
+  --color-secondary: 270 30% 95%;
+  --color-secondary-foreground: 270 20% 20%;
+  --color-muted: 270 30% 96%;
+  --color-muted-foreground: 270 15% 45%;
+  --color-accent: 280 65% 85%;
+  --color-accent-foreground: 270 20% 20%;
+  --color-destructive: 0 84% 60%;
+  --color-destructive-foreground: 0 0% 98%;
+  --color-border: 270 20% 90%;
+  --color-input: 270 20% 88%;
+  --color-ring: 270 70% 75%;
+  --radius: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  @theme {
+    --color-background: 270 30% 10%;
+    --color-foreground: 270 10% 95%;
+    --color-card: 270 30% 12%;
+    --color-card-foreground: 270 10% 95%;
+    --color-popover: 270 30% 10%;
+    --color-popover-foreground: 270 10% 95%;
+    --color-primary: 270 70% 75%;
+    --color-primary-foreground: 270 20% 20%;
+    --color-secondary: 270 20% 20%;
+    --color-secondary-foreground: 270 10% 95%;
+    --color-muted: 270 20% 20%;
+    --color-muted-foreground: 270 15% 60%;
+    --color-accent: 280 65% 30%;
+    --color-accent-foreground: 270 10% 95%;
+    --color-destructive: 0 62% 50%;
+    --color-destructive-foreground: 270 10% 95%;
+    --color-border: 270 20% 25%;
+    --color-input: 270 20% 25%;
+    --color-ring: 270 70% 75%;
+  }
+}
+
