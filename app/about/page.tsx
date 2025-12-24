@@ -214,7 +214,7 @@ export default function AboutPage() {
               {
                 icon: "📈",
                 title: "Continuous Improvement",
-                description: "We commit to learning and evolving based on audience feedback and industry trends, regularly updating our content strategies and process as needed.",
+                description: "We commit to learning and evolving based on audience feedback and industry trends, regularly updating our content strategies and processes as needed.",
               },
             ].map((principle) => (
               <div
